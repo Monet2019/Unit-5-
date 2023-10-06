@@ -1,0 +1,109 @@
+
+body, h1, h2, ul, li, p, a, input, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Cursive', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    background-image: url("https://images.unsplash.com/photo-1657558045738-21507cf53606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #eb0909;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Cursive', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eb0909;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.5rem; 
+    margin-top: 20px;
+    color: #eb0909;
+    text-align: center;
+    font-family: 'Cursive', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: center;
+    color: #eb0909;
+}
+
+li {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #eb0909;
+    transition: color 0.3s ease;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 30px;
+    color: #eb0909;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #5f6366;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #eb0909;
+}
+
+
+input:hover {
+    border-color: #eb0909;
+}
